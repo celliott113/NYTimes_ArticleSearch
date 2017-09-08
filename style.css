@@ -1,3 +1,16 @@
 .jumbotron {
 	text-align: center;
 }
+
+#center {
+	text-align: left;
+}
+
+#searchArea {
+	background-color: lightgrey;
+	padding: 0px 0px 10px 10px;
+}
+
+#searchTopic {
+	
+}

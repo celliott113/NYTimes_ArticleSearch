@@ -15,7 +15,7 @@
  		<h1>New York Times Search</h1>
 	</div>
 
-	<div class="container">
+	<div class="container" id="searchArea">
 		
 		<div class="row">
 			
@@ -23,7 +23,7 @@
 				
 				<div class="container">
 
-					<div class="row">
+					<div class="row" id="center">
 						
 						<h2>Search Parameters</h2>
 
@@ -45,7 +45,7 @@
 								<br>
 								<label for="recordsNumber">Number of Records to Retrieve</label>
 								<br>
-								<input type="text" id="numberSearched">
+								<input type="text" id="searchTopic">
 								<br>
 								<label for="startYear">Start Year (optional)</label>
 								<br>
@@ -80,7 +80,7 @@
 		
 	$("#runSearch").on("click", function(event) {
 		event.preventDefault();
-		
+
 	})
 
 	</script>
